@@ -1,0 +1,164 @@
+/* 
+    AlphaMaster LMS
+*/
+
+/* Navbar */
+.navbar-center {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+/* Hero */
+
+.hero {
+    position: relative;
+    align-content: start;
+    min-height: 670px;
+}
+.hero__headline {
+    padding-top: 100px;
+}
+
+.hero__headline h1 {
+    color: #2977c9;
+    font-size: 64px;
+    font-weight: 300;
+}
+
+.flexgrid-column a.btn {
+    border-radius: 500px;
+    margin-right: 5px;
+}
+
+@media(min-width: 1162px) {
+    .hero__illustration {
+        margin-right: -25px;
+    }
+}
+
+
+
+
+
+/* Explore Courses */
+@media (min-width: 1161px){
+    .explore-courses {
+        margin-top: -138px;
+    }
+}
+
+
+
+
+/* Footer Section */
+#footer {
+    background-color: #faf9f7;
+}
+.footer_link {
+    text-align: left;
+}
+
+.footer_link a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #666666;
+}
+
+#footer .list-inline .list-inline-item a {
+    font-size: 12px;
+    color: #666666;
+}
+
+
+@media (max-width: 768px){
+    .footer_company:first-child {
+        width: 100% !important;
+    }
+    /* .footer_company {
+        flex-basis: 50%;
+    } */
+}
+.footer_company {
+    flex: 1 1 auto!important;
+}
+
+
+
+
+
+/* Simple Grid */
+.flex-container {
+    max-width: 1335px;
+    margin: 0 auto;
+}
+.flexgrid-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.flexgrid-column {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+.flexgrid-item {
+    /* height: 550px; */
+    flex-basis: 20%;
+    -ms-flex: auto;
+    width: 259px;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.hero__grid-item {
+    flex-basis: 50%;
+    -ms-flex: auto;
+    width: 50%;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@media(min-width: 1073px) {
+    .hero__grid-item {
+      flex-basis: 50%;
+    }
+}
+@media(max-width: 815px) {
+    .hero__grid-item {
+      flex-basis: 50%;
+    }
+}
+@media(max-width: 555px) {
+    .hero__grid-item {
+      flex-basis: 100%;
+    }
+}
+  
+
+
+
+
+
+
+
+
+
+.wrapper{
+    width:100%;
+    padding-top: 20px;
+    text-align:center;
+  }
+
+.carousel{
+    width:90%;
+    margin:0px auto;
+  }
+  .slick-slide{
+    margin:10px;
+  }
+  .slick-slide img{
+    width:100%;
+    border: 2px solid #fff;
+  }
